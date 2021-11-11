@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
-    <link rel="stylesheet" href="./styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles.css">
 
 </head>
 <body>
@@ -20,7 +18,7 @@
 
 <header>
     <div class="brand">
-<img src="data:image/png;base64,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" alt="logo">
+<img src="https://www.freepnglogos.com/uploads/adidas-logo-photo-png-3.png" alt="logo">
 </div>
 <nav>
 <a href="https://example.com" target="_blank"> Link 1</a>
@@ -52,17 +50,19 @@
 </main>
 
 <footer>
-&copy: <span>Copyright: 2021 asos</span>
+&copy: <span>Copyright Adidas</span>
 </footer>
 
-    </div>
-    <script>
-        const: copyrightYear = document.querySelector('footer span');
-        
-        let date = new Date();
-        let year = date.getFullYear();
-            copyright.textContent = `Copyright ${year} Addidas` 
-    
-    </script>
+</div>
+
+<script>
+   const copyrightYear = document.querySelector('footer span');
+
+   let date = new Date();
+   let year = date.getFullYear();
+
+   copyrightYear.textContent = `Copyright ${year} Adidas`;
+</script>
+
 </body>
 </html>
